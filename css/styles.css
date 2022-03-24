@@ -254,5 +254,5 @@ button[type='button']:hover,
   letter-spacing: 0.03em;
   color: var(--grey-text-color);
 }
-.logo-text:focus-within {
-}
+/* .logo-text:focus-within {
+} */
