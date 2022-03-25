@@ -20,6 +20,9 @@ body {
 /* PORTFOLIO HTML */
 /* Шапка */
 
+img {
+  display: block;
+}
 a {
   text-decoration: none;
 }
@@ -96,8 +99,8 @@ header {
 }
 /* Основной контент */
 .main-content {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* Кнопки навигации сайта */
 #studio {
@@ -167,9 +170,6 @@ header {
   margin-bottom: 20px;
 }
 
-.portfolio-list img {
-  display: block;
-}
 /* 1px solid var(--border-header-color); */
 .portfolio-list-text {
   padding-left: 24px;
@@ -284,6 +284,8 @@ button[type='button']:hover,
 /* H1 section */
 .top-section {
   background-color: var(--h1-section-and-footer-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .container {
   width: 1200px;
@@ -294,8 +296,6 @@ button[type='button']:hover,
 }
 .hero {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .h1-text {
@@ -366,6 +366,9 @@ li > p {
   margin: 0px;
 }
 /* Чем мы занимаемся */
+.what-we-do {
+  padding-bottom: 94px;
+}
 .what-we-do-text {
   font-weight: 700;
   font-size: 36px;
@@ -388,7 +391,6 @@ li > p {
 /* Наша команда */
 .our-team-section {
   background-color: var(--our-team-section-color);
-  margin-top: 94px;
 }
 .our-team-table {
   padding-top: 94px;
