@@ -32,25 +32,25 @@ ul {
 header {
   border-bottom: 1px solid var(--border-header-color);
 }
-.container.header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+.container {
   width: 1200px;
-  display: flex;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.logo {
-  margin-right: 93px;
+.container.header {
+  display: flex;
+  align-items: center;
 }
+
 .logo-text {
   font-size: 26px;
   line-height: 1.17;
   font-family: Raleway;
   text-decoration: none;
   color: var(--black-text-color);
+  margin-right: 93px;
 }
 .logo-text:hover {
   color: var(--black-text-color);
@@ -79,7 +79,7 @@ header {
 .nav-list {
   display: flex;
   padding-left: 0px;
-  margin-left: 331px;
+  margin-left: auto;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -88,6 +88,9 @@ header {
   margin-right: 50px;
 }
 .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-size: 14px;
   line-height: 1.14;
   font-weight: 500;
@@ -167,7 +170,7 @@ header {
   margin-bottom: 0px;
 }
 .portfolio-list {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* 1px solid var(--border-header-color); */
@@ -191,8 +194,8 @@ header {
   font-size: 18px;
   line-height: 2;
   color: var(--black-text-color);
-  padding-bottom: 4px;
-  margin: 0px;
+  margin-bottom: 4px;
+  margin-top: 0px;
 }
 .portfolio-text {
   font-size: 16px;
@@ -274,7 +277,7 @@ button[type='button']:hover,
   margin-top: 9px;
 }
 .footer-list-contacts li:nth-child(2n) {
-  padding-top: 9px;
+  margin-top: 9px;
 }
 .contacts-footer:focus {
   color: var(--accent-color);
@@ -287,19 +290,13 @@ button[type='button']:hover,
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 .hero {
   text-align: center;
 }
 
 .h1-text {
-  width: 696px;
+  max-width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -332,7 +329,7 @@ button[type='button']:hover,
 }
 
 /* Наши преимущества */
-.container.our-advantages {
+.our-advantages {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -391,11 +388,10 @@ li > p {
 /* Наша команда */
 .our-team-section {
   background-color: var(--our-team-section-color);
-}
-.our-team-table {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .our-team-list {
   display: flex;
   margin-top: 50px;
@@ -433,7 +429,7 @@ li > p {
   letter-spacing: 0.03em;
   color: var(--black-text-color);
   margin: 0px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .our-team-profession {
   font-size: 16px;
